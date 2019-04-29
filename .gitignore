@@ -1,0 +1,4 @@
+venv
+db.sqlite3
+.idea
+test_api/.env

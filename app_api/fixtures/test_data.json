@@ -1,0 +1,1258 @@
+[
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "app_api",
+      "model": "creditorganization"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "app_api",
+      "model": "customerprofile"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "app_api",
+      "model": "offer"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "app_api",
+      "model": "request"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "app_api",
+      "model": "partner"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "amrgf9mmirrnozf0027q81rh7y453v06",
+    "fields": {
+      "session_data": "ZWU5MjAwOGEyMDAzYjI0MzYyMGNlZmE4NTI0OWU0N2M0YmY1Y2NkNTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI2OTlkNjY0Yzg1NTg0NDZmMDEyMWI2NWUwY2JkNTY3MjQyNWNkNDJlIn0=",
+      "expire_date": "2019-05-13T03:23:01.938Z"
+    }
+  },
+  {
+    "model": "app_api.offer",
+    "pk": 1,
+    "fields": {
+      "create_datetime": "2019-04-26T01:30:38.319Z",
+      "update_datetime": "2019-04-26T01:33:57.196Z",
+      "rotation_start_datetime": "2019-04-26T01:30:06Z",
+      "rotation_end_datetime": "2019-07-26T01:30:07Z",
+      "name": "offer_5_20_1",
+      "type": "consumer",
+      "minimum_score": 5,
+      "maximum_score": 20,
+      "credit_organization": 1
+    }
+  },
+  {
+    "model": "app_api.offer",
+    "pk": 2,
+    "fields": {
+      "create_datetime": "2019-04-26T01:31:52.342Z",
+      "update_datetime": "2019-04-26T01:34:24.715Z",
+      "rotation_start_datetime": "2019-04-26T01:30:53Z",
+      "rotation_end_datetime": "2019-07-26T01:30:54Z",
+      "name": "offer_30_50_1",
+      "type": "mortgage",
+      "minimum_score": 30,
+      "maximum_score": 50,
+      "credit_organization": 1
+    }
+  },
+  {
+    "model": "app_api.offer",
+    "pk": 3,
+    "fields": {
+      "create_datetime": "2019-04-26T01:33:42.163Z",
+      "update_datetime": "2019-04-26T01:33:42.163Z",
+      "rotation_start_datetime": "2019-02-26T01:32:12Z",
+      "rotation_end_datetime": "2019-04-26T01:32:13Z",
+      "name": "expired_offer_1",
+      "type": "car_loan",
+      "minimum_score": 5,
+      "maximum_score": 70,
+      "credit_organization": 1
+    }
+  },
+  {
+    "model": "app_api.offer",
+    "pk": 4,
+    "fields": {
+      "create_datetime": "2019-04-26T01:35:02.021Z",
+      "update_datetime": "2019-04-26T01:35:02.021Z",
+      "rotation_start_datetime": "2019-04-26T01:34:38Z",
+      "rotation_end_datetime": "2019-07-26T01:34:38Z",
+      "name": "offer_5_20_2",
+      "type": "consumer",
+      "minimum_score": 5,
+      "maximum_score": 20,
+      "credit_organization": 2
+    }
+  },
+  {
+    "model": "app_api.offer",
+    "pk": 5,
+    "fields": {
+      "create_datetime": "2019-04-26T01:35:32.441Z",
+      "update_datetime": "2019-04-26T01:35:32.441Z",
+      "rotation_start_datetime": "2019-04-26T01:35:16Z",
+      "rotation_end_datetime": "2019-07-26T01:35:17Z",
+      "name": "offer_30_50_2",
+      "type": "mortgage",
+      "minimum_score": 30,
+      "maximum_score": 50,
+      "credit_organization": 2
+    }
+  },
+  {
+    "model": "app_api.offer",
+    "pk": 6,
+    "fields": {
+      "create_datetime": "2019-04-26T01:36:08.774Z",
+      "update_datetime": "2019-04-26T01:36:08.774Z",
+      "rotation_start_datetime": "2019-02-26T01:35:58Z",
+      "rotation_end_datetime": "2019-04-26T01:35:59Z",
+      "name": "expired_offer_2",
+      "type": "car_loan",
+      "minimum_score": 5,
+      "maximum_score": 70,
+      "credit_organization": 2
+    }
+  },
+  {
+    "model": "app_api.offer",
+    "pk": 7,
+    "fields": {
+      "create_datetime": "2019-04-26T01:42:34.240Z",
+      "update_datetime": "2019-04-26T01:42:34.240Z",
+      "rotation_start_datetime": "2019-04-26T01:42:16Z",
+      "rotation_end_datetime": "2019-07-26T01:42:17Z",
+      "name": "offer_5_20_3",
+      "type": "consumer",
+      "minimum_score": 5,
+      "maximum_score": 20,
+      "credit_organization": 3
+    }
+  },
+  {
+    "model": "app_api.offer",
+    "pk": 8,
+    "fields": {
+      "create_datetime": "2019-04-26T01:42:58.476Z",
+      "update_datetime": "2019-04-26T01:42:58.476Z",
+      "rotation_start_datetime": "2019-04-26T01:42:46Z",
+      "rotation_end_datetime": "2019-07-26T01:42:47Z",
+      "name": "offer_30_50_3",
+      "type": "mortgage",
+      "minimum_score": 30,
+      "maximum_score": 50,
+      "credit_organization": 3
+    }
+  },
+  {
+    "model": "app_api.offer",
+    "pk": 9,
+    "fields": {
+      "create_datetime": "2019-04-26T01:43:16.142Z",
+      "update_datetime": "2019-04-26T01:43:16.142Z",
+      "rotation_start_datetime": "2019-02-26T01:43:05Z",
+      "rotation_end_datetime": "2019-04-26T01:43:06Z",
+      "name": "expired_offer_3",
+      "type": "car_loan",
+      "minimum_score": 5,
+      "maximum_score": 70,
+      "credit_organization": 3
+    }
+  },
+  {
+    "model": "app_api.customerprofile",
+    "pk": 1,
+    "fields": {
+      "create_datetime": "2019-04-26T01:39:11.084Z",
+      "update_datetime": "2019-04-26T01:40:12.217Z",
+      "second_name": "client_5_1",
+      "first_name": "client_5_1",
+      "middle_name": "client_5_1",
+      "birthday": "2000-04-26",
+      "phone": 123123123,
+      "passport": 123123123,
+      "score": 5,
+      "partner": 1
+    }
+  },
+  {
+    "model": "app_api.customerprofile",
+    "pk": 2,
+    "fields": {
+      "create_datetime": "2019-04-26T01:40:03.518Z",
+      "update_datetime": "2019-04-26T01:40:03.518Z",
+      "second_name": "client_30_1",
+      "first_name": "client_30_1",
+      "middle_name": "client_30_1",
+      "birthday": "1995-04-26",
+      "phone": 123123123,
+      "passport": 123123123,
+      "score": 30,
+      "partner": 1
+    }
+  },
+  {
+    "model": "app_api.customerprofile",
+    "pk": 3,
+    "fields": {
+      "create_datetime": "2019-04-26T01:40:34.325Z",
+      "update_datetime": "2019-04-26T01:40:34.325Z",
+      "second_name": "client_5_2",
+      "first_name": "client_5_2",
+      "middle_name": "client_5_2",
+      "birthday": "2000-04-26",
+      "phone": 123123123,
+      "passport": 123123123,
+      "score": 5,
+      "partner": 2
+    }
+  },
+  {
+    "model": "app_api.customerprofile",
+    "pk": 4,
+    "fields": {
+      "create_datetime": "2019-04-26T01:41:03.721Z",
+      "update_datetime": "2019-04-26T01:41:03.721Z",
+      "second_name": "client_30_2",
+      "first_name": "client_30_2",
+      "middle_name": "client_30_2",
+      "birthday": "1995-04-26",
+      "phone": 123123123,
+      "passport": 123123123,
+      "score": 30,
+      "partner": 2
+    }
+  },
+  {
+    "model": "app_api.customerprofile",
+    "pk": 5,
+    "fields": {
+      "create_datetime": "2019-04-26T01:41:22.647Z",
+      "update_datetime": "2019-04-26T01:41:22.647Z",
+      "second_name": "client_5_3",
+      "first_name": "client_5_3",
+      "middle_name": "client_5_3",
+      "birthday": "2000-04-26",
+      "phone": 123123123,
+      "passport": 123123123,
+      "score": 5,
+      "partner": 3
+    }
+  },
+  {
+    "model": "app_api.customerprofile",
+    "pk": 6,
+    "fields": {
+      "create_datetime": "2019-04-26T01:41:39.229Z",
+      "update_datetime": "2019-04-26T01:41:39.229Z",
+      "second_name": "client_30_3",
+      "first_name": "client_30_3",
+      "middle_name": "client_30_3",
+      "birthday": "1995-04-26",
+      "phone": 123123123,
+      "passport": 123123123,
+      "score": 30,
+      "partner": 3
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": [
+        "admin",
+        "logentry"
+      ],
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": [
+        "admin",
+        "logentry"
+      ],
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": [
+        "admin",
+        "logentry"
+      ],
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": [
+        "admin",
+        "logentry"
+      ],
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add permission",
+      "content_type": [
+        "auth",
+        "permission"
+      ],
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change permission",
+      "content_type": [
+        "auth",
+        "permission"
+      ],
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": [
+        "auth",
+        "permission"
+      ],
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view permission",
+      "content_type": [
+        "auth",
+        "permission"
+      ],
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add group",
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change group",
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete group",
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view group",
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add user",
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change user",
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete user",
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view user",
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add content type",
+      "content_type": [
+        "contenttypes",
+        "contenttype"
+      ],
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change content type",
+      "content_type": [
+        "contenttypes",
+        "contenttype"
+      ],
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": [
+        "contenttypes",
+        "contenttype"
+      ],
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view content type",
+      "content_type": [
+        "contenttypes",
+        "contenttype"
+      ],
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add session",
+      "content_type": [
+        "sessions",
+        "session"
+      ],
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change session",
+      "content_type": [
+        "sessions",
+        "session"
+      ],
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete session",
+      "content_type": [
+        "sessions",
+        "session"
+      ],
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view session",
+      "content_type": [
+        "sessions",
+        "session"
+      ],
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add Кредитная организация",
+      "content_type": [
+        "app_api",
+        "creditorganization"
+      ],
+      "codename": "add_creditorganization"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change Кредитная организация",
+      "content_type": [
+        "app_api",
+        "creditorganization"
+      ],
+      "codename": "change_creditorganization"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete Кредитная организация",
+      "content_type": [
+        "app_api",
+        "creditorganization"
+      ],
+      "codename": "delete_creditorganization"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view Кредитная организация",
+      "content_type": [
+        "app_api",
+        "creditorganization"
+      ],
+      "codename": "view_creditorganization"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add Анкета клиента",
+      "content_type": [
+        "app_api",
+        "customerprofile"
+      ],
+      "codename": "add_customerprofile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change Анкета клиента",
+      "content_type": [
+        "app_api",
+        "customerprofile"
+      ],
+      "codename": "change_customerprofile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete Анкета клиента",
+      "content_type": [
+        "app_api",
+        "customerprofile"
+      ],
+      "codename": "delete_customerprofile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view Анкета клиента",
+      "content_type": [
+        "app_api",
+        "customerprofile"
+      ],
+      "codename": "view_customerprofile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can send to credit organization",
+      "content_type": [
+        "app_api",
+        "customerprofile"
+      ],
+      "codename": "send_request"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add Предложение",
+      "content_type": [
+        "app_api",
+        "offer"
+      ],
+      "codename": "add_offer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change Предложение",
+      "content_type": [
+        "app_api",
+        "offer"
+      ],
+      "codename": "change_offer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete Предложение",
+      "content_type": [
+        "app_api",
+        "offer"
+      ],
+      "codename": "delete_offer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view Предложение",
+      "content_type": [
+        "app_api",
+        "offer"
+      ],
+      "codename": "view_offer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add Заявка в кредитную организацию",
+      "content_type": [
+        "app_api",
+        "request"
+      ],
+      "codename": "add_request"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change Заявка в кредитную организацию",
+      "content_type": [
+        "app_api",
+        "request"
+      ],
+      "codename": "change_request"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete Заявка в кредитную организацию",
+      "content_type": [
+        "app_api",
+        "request"
+      ],
+      "codename": "delete_request"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view Заявка в кредитную организацию",
+      "content_type": [
+        "app_api",
+        "request"
+      ],
+      "codename": "view_request"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change status after received",
+      "content_type": [
+        "app_api",
+        "request"
+      ],
+      "codename": "change_status_request"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add Партнер",
+      "content_type": [
+        "app_api",
+        "partner"
+      ],
+      "codename": "add_partner"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change Партнер",
+      "content_type": [
+        "app_api",
+        "partner"
+      ],
+      "codename": "change_partner"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete Партнер",
+      "content_type": [
+        "app_api",
+        "partner"
+      ],
+      "codename": "delete_partner"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view Партнер",
+      "content_type": [
+        "app_api",
+        "partner"
+      ],
+      "codename": "view_partner"
+    }
+  },
+  {
+    "model": "auth.group",
+    "fields": {
+      "name": "partner",
+      "permissions": [
+        [
+          "add_customerprofile",
+          "app_api",
+          "customerprofile"
+        ],
+        [
+          "send_request",
+          "app_api",
+          "customerprofile"
+        ],
+        [
+          "view_customerprofile",
+          "app_api",
+          "customerprofile"
+        ],
+        [
+          "view_request",
+          "app_api",
+          "request"
+        ]
+      ]
+    }
+  },
+  {
+    "model": "auth.group",
+    "fields": {
+      "name": "credit_organization",
+      "permissions": [
+        [
+          "change_status_request",
+          "app_api",
+          "request"
+        ],
+        [
+          "view_request",
+          "app_api",
+          "request"
+        ]
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$150000$E06R71KYdkxU$pbsIuv7IKXCOKaR9G1UfXwb2qCCqR1nnAXtN2h3C5Ds=",
+      "last_login": "2019-04-29T03:23:01.931Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2019-04-26T01:10:41.488Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$150000$E06R71KYdkxU$pbsIuv7IKXCOKaR9G1UfXwb2qCCqR1nnAXtN2h3C5Ds=",
+      "last_login": "2019-04-29T03:07:17.624Z",
+      "is_superuser": false,
+      "username": "partner_1",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-04-26T01:18:11Z",
+      "groups": [
+        [
+          "partner"
+        ]
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$150000$E06R71KYdkxU$pbsIuv7IKXCOKaR9G1UfXwb2qCCqR1nnAXtN2h3C5Ds=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "partner_2",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-04-26T01:18:32Z",
+      "groups": [
+        [
+          "partner"
+        ]
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$150000$E06R71KYdkxU$pbsIuv7IKXCOKaR9G1UfXwb2qCCqR1nnAXtN2h3C5Ds=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "partner_3",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-04-26T01:18:32Z",
+      "groups": [
+        [
+          "partner"
+        ]
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$150000$E06R71KYdkxU$pbsIuv7IKXCOKaR9G1UfXwb2qCCqR1nnAXtN2h3C5Ds=",
+      "last_login": "2019-04-29T03:07:29.862Z",
+      "is_superuser": false,
+      "username": "credit_organization_1",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-04-26T01:19:20Z",
+      "groups": [
+        [
+          "credit_organization"
+        ]
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$150000$E06R71KYdkxU$pbsIuv7IKXCOKaR9G1UfXwb2qCCqR1nnAXtN2h3C5Ds=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "credit_organization_2",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-04-26T01:19:35Z",
+      "groups": [
+        [
+          "credit_organization"
+        ]
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$150000$E06R71KYdkxU$pbsIuv7IKXCOKaR9G1UfXwb2qCCqR1nnAXtN2h3C5Ds=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "credit_organization_3",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-04-26T01:19:35Z",
+      "groups": [
+        [
+          "credit_organization"
+        ]
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$150000$E06R71KYdkxU$pbsIuv7IKXCOKaR9G1UfXwb2qCCqR1nnAXtN2h3C5Ds=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "superuser_1",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-04-26T01:18:52Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "app_api.partner",
+    "pk": 1,
+    "fields": {
+      "user": [
+        "partner_1"
+      ],
+      "name": "Партнер 1",
+      "description": "Описание 1"
+    }
+  },
+  {
+    "model": "app_api.partner",
+    "pk": 2,
+    "fields": {
+      "user": [
+        "partner_2"
+      ],
+      "name": "Партнер 2",
+      "description": "Описание 2"
+    }
+  },
+  {
+    "model": "app_api.partner",
+    "pk": 3,
+    "fields": {
+      "user": [
+        "partner_3"
+      ],
+      "name": "Партнер 3",
+      "description": "Описание 3"
+    }
+  },
+  {
+    "model": "app_api.creditorganization",
+    "pk": 1,
+    "fields": {
+      "user": [
+        "credit_organization_1"
+      ],
+      "name": "Кредитная организация 1",
+      "description": "Описание 1"
+    }
+  },
+  {
+    "model": "app_api.creditorganization",
+    "pk": 2,
+    "fields": {
+      "user": [
+        "credit_organization_2"
+      ],
+      "name": "Кредитная организация 2",
+      "description": "Описание 2"
+    }
+  },
+  {
+    "model": "app_api.creditorganization",
+    "pk": 3,
+    "fields": {
+      "user": [
+        "credit_organization_3"
+      ],
+      "name": "Кредитная организация 3",
+      "description": "Описание 3"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2019-04-29T00:03:03.163Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "object_id": "1",
+      "object_repr": "superuser",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2019-04-29T00:03:22.410Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "object_id": "3",
+      "object_repr": "credit_organization",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2019-04-29T00:03:41.635Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "object_id": "2",
+      "object_repr": "partner",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2019-04-29T00:20:12.512Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "app_api",
+        "request"
+      ],
+      "object_id": "2",
+      "object_repr": "Request object (2)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2019-04-29T00:20:31.482Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "app_api",
+        "request"
+      ],
+      "object_id": "1",
+      "object_repr": "Request object (1)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2019-04-29T01:04:51.852Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "object_id": "2",
+      "object_repr": "partner",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2019-04-29T01:07:51.700Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "object_id": "2",
+      "object_repr": "partner",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2019-04-29T01:53:09.200Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "app_api",
+        "request"
+      ],
+      "object_id": "3",
+      "object_repr": "Request object (3)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2019-04-29T01:53:09.207Z",
+      "user": [
+        "admin"
+      ],
+      "content_type": [
+        "app_api",
+        "request"
+      ],
+      "object_id": "2",
+      "object_repr": "Request object (2)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  }
+]
